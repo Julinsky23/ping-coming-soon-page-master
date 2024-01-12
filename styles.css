@@ -9,6 +9,12 @@
     --very-dark-blue: hsl(209, 33%, 12%);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-size: 20px;
     font-family: 'Libre Franklin', sans-serif;
@@ -26,8 +32,9 @@ main{
 
 .logo{
     width: 20%;
-    margin: 30px auto;
+    margin: 40px auto;
 }
+
 .main-img{
     width: 90%;
     margin-bottom: 90px;
@@ -36,7 +43,7 @@ main{
 h1{
     color: var(--gray);
     font-weight: lighter;
-    
+    margin-bottom: 20px;
 }
 
 h1 span{
@@ -47,32 +54,43 @@ h1 span{
 h2{
     font-weight: lighter;
     font-size: 12px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.input-form{
+form{
     padding: 10px 20px;
 }
 
-input{
+.input-form input{
     border-radius: 20px;
     color: var(--pale-blue);
     border-color: var(--pale-blue);
-    border-width: 0.5px;
+    border-width: 1px;
     width: 290px;
+    height: 40px;
+    padding: 12px 20px;
 }
+
+
+::placeholder {
+    color: var(--pale-blue);
+    font-weight: lighter;
+  }
 
 .notify-btn{
     background-color: var(--blue);
     color: white;
     border-radius: 20px;
+    border-width: 1px;
     border: none;
     width: 290px;
     margin-bottom: 70px;
+    height: 40px;
+    cursor: pointer; /* Zeiger als Zeigegerät ändern */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 footer img{
-
     margin-bottom: 10px;
     padding: 0px 3px;
 
@@ -81,4 +99,55 @@ footer img{
 footer p{
     color: var(--gray);
     font-size: 9px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .logo{
+        width: 10%;
+    }
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 70px;
+    
+    }
+
+    .input-form{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 390;
+        padding: 0px 0px;
+        margin-bottom: 40px;
+    }
+
+    form{
+        padding: 0px 10px;
+    }
+
+    .notify-btn{
+        margin-bottom: 0px;
+        width: 190px;
+    }
+
+    .main-img{
+        width: 40%;
+        margin-bottom: 70px;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
 }

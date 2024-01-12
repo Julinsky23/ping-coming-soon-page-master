@@ -27,11 +27,17 @@ Users should be able to:
 
 ### Screenshot
 **Mobile version**
+
 <img src="solution-images/Solution-mobile.png" width="400">
+
+**mobile-error-state version**
 
 
 **Desktop version**
+
 <img src="solution-images/solution-desktop.png" width="400">
+
+**Desktop-error-state version**
 
 
 ## My process

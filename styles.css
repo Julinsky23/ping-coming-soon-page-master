@@ -90,6 +90,11 @@ form{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.notify-btn:hover{
+    opacity: 0.5;
+
+}
+
 footer img{
     margin-bottom: 10px;
     padding: 0px 3px;
@@ -141,6 +146,8 @@ footer p{
         margin-bottom: 0px;
         width: 190px;
     }
+
+  
 
     .main-img{
         width: 40%;

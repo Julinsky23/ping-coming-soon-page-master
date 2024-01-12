@@ -31,7 +31,7 @@ Users should be able to:
 
 
 **Desktop version**
-<img src="solution-images/solution-mobile.png" width="400">
+<img src="solution-images/solution-desktop.png" width="400">
 
 
 ## My process
